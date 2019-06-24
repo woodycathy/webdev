@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact Us</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="restaurantStyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="restaurantsite.js"></script>
+  </head>
+
+  <body>
+    <noscript>Sorry, your browser does not support JavaScript! This site is best viewed with JavaScript enabled.</noscript>
+    <div id="page-containter">
+      <div id="content-wrap">
+        <header class="jumbotron">
+          <h1>Dragon Chinese Kitchen</h1>
+          <h2>New Location Grand Opening!!!</h2>
+        </header>
+
+      <nav>
+          <a class="btn" href="Homepage.html"><i class="fa fa-home"></i> Home</a>
+          <a class="btn" href="Menu.html">Menu</a>
+          <a class="btn" href="Contact Us.html">Contact Us</a>
+      </nav>
+
+
+  <div id="contact-us" class="container" class="form-inline" onsubmit="return validateItems();">
+
+    <div class="row">
+    <div class="col-md-8">
+    <form name="contactForm" action="Contact Us.html" method="post">
+      <div class="form-group row">
+          <label for="Name" class="col-sm-2">Name: </label>
+          <input type="text" name="Name" id="Name" class="col-sm-10"><br /><br />
+      </div>
+      <div class="form-group row">
+          <label for="Email" class="col-sm-2">Email: </label>
+          <input type="text" name="Email" id="Email" class="col-sm-10"><br /><br />
+      </div>
+      <div class="form-group row">
+          <label for="Phone" class="col-sm-2">Phone: </label>
+          <input type="text" name="Phone" id="Phone" class="col-sm-10"><br /><br />
+      </div>
+      <div class="form-group form-inline">
+          <label for="inquiry" class="clo-sm-2 mr-4">Reason for Inquiry: </label>
+          <select name="inquiry" id="inquiry">
+              <option value="default">--Please select--</option>
+              <option value="default">Catering</option>
+              <option value="inquiry2">Private Party</option>
+              <option value="inquiry3">Feedback</option>
+              <option value="inquiry4">Other</option>
+
+          </select><br /><br />
+      </div>
+      <div class="form-group form-inline">
+          <label for="comment" class="clo-sm-2 mr-4">Additional information: </label><br />
+
+          <textarea name="comment" id="comment"rows="4" cols="50"></textarea><br /><br />
+      </div>
+
+      <div class="form-group form-check-inline">
+
+          <label for="yes-no" class="clo-sm-2 mr-4">Have you been to the restaurant? </label>
+          <input type="radio" name="yes-no" id="no" value="No">
+          <label for="no" class="radio" class="mr-2">No</label>
+          <input type="radio" name="yes-no" id="yes" value="Yes">
+          <label for="yes" class="radio" class="mr-2">Yes</label>
+          <br /><br />
+        </div>
+
+        <div class="form-check form-check-inline">
+          <label for="days" class="clo-sm-2 mr-4">Best days to contact you: </label>
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+          <label class="form-check-label" for="inlineCheckbox1">M</label>
+
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+          <label class="form-check-label" for="inlineCheckbox2">T</label>
+
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+          <label class="form-check-label" for="inlineCheckbox3">W</label>
+
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+        <label class="form-check-label" for="inlineCheckbox1">Th</label>
+
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+        <label class="form-check-label" for="inlineCheckbox2">F</label>
+
+        </div>
+
+          <div class="form-group form-inline">
+            <input type="submit" name="submit" value="Send Request">
+          </div>
+
+    </form>
+
+</div>
+</div>
+
+    <footer><hr /><center>11404 Old Bridge Rd
+      Lyons, OR 97358<br />
+      (503) 859-3331</center></footer>
+
+      <!-- CDN links copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+</div>
+  </body>
+
+
+</html>
